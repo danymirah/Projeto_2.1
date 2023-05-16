@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&display=swap');
-
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
 *{
     background-color: #222222;
     margin: 0;
@@ -24,6 +26,10 @@ header {
     width: 190px;
     max-width: 100%;
     height: auto;
+}
+
+.img-inicio{
+    width: 50%;
 }
 
 .center {
