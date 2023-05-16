@@ -172,16 +172,27 @@ figcaption{
     padding: 15px;
 }
 
-
 #contrate .card-title{
     background-color: #7d8c9b;
     color: #7900ac;
     font-weight: bold
 }
 
-#contrate .card-text{
+#contrate .card-text {
     background-color: #7d8c9b;
     color: azure;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contrate .card-text p{
+    background-color: #7d8c9b;
+    color: azure;
+    margin-bottom: 0;
+    padding: 1%;
+    font-size: 17px;
 }
 
 .contrate_nos {
